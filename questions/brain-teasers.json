@@ -1,0 +1,267 @@
+[
+    {
+        "img": "BT1.png",
+        "questions": [
+            {
+                "question": "Which animal you observed :-",
+                "options": [
+                    "Fish",
+                    "Pig",
+                    "Fox",
+                    "Pegion"
+                ],
+                "answer": [
+                    "Fish",
+                    "Pig",
+                    "Fox"
+                ]
+            },
+            {
+                "question": "Number of Images in this picture :-",
+                "options": [
+                    "6",
+                    "9",
+                    "12",
+                    "15"
+                ],
+                "answer": [
+                    "9"
+                ]
+            },
+            {
+                "question": "What is the color of Bell in this picture :-",
+                "options": [
+                    "Blue",
+                    "Black",
+                    "Red",
+                    "Green"
+                ],
+                "answer": [
+                    "Black"
+                ]
+            },
+            {
+                "question": "Identify the icon present on bottom left picture :-",
+                "options": [
+                    "Duck",
+                    "Bed",
+                    "Fish",
+                    "Pig"
+                ],
+                "answer": [
+                    "Fish"
+                ]
+            }
+        ]
+    },
+    {
+        "img": "BT2.png",
+        "questions": [
+            {
+                "question": "Is there orange color present  :-",
+                "options": [
+                    "Yes",
+                    "No",
+                    "May be "
+                ],
+                "answer": [
+                    "Yes"
+                ]
+            },
+            {
+                "question": "How may different color are there :- ",
+                "options": [
+                    "6",
+                    "9",
+                    "12",
+                    "15"
+                ],
+                "answer": [
+                    "9"
+                ]
+            },
+            {
+                "question": "Is there black color present  :-",
+                "options": [
+                    "Yes",
+                    "No",
+                    "May be "
+                ],
+                "answer": [
+                    "Yes"
+                ]
+            },
+            {
+                "question": "Number of color strips in each container :-",
+                "options": [
+                    "2",
+                    "1",
+                    "0",
+                    "3"
+                ],
+                "answer": [
+                    "2"
+                ]
+            }
+        ]
+    },
+    {
+        "img": "BT3.png",
+        "questions": [
+            {
+                "question": "What is the color of the horse :-",
+                "options": [
+                    "White",
+                    "Black",
+                    "Brown",
+                    "Yellow"
+                ],
+                "answer": [
+                    "Brown"
+                ]
+            },
+            {
+                "question": "Who is riding the horse :-",
+                "options": [
+                    "Boy",
+                    "Man",
+                    "Lady",
+                    "Girl"
+                ],
+                "answer": [
+                    "Man"
+                ]
+            },
+            {
+                "question": "What is the color of the tie the Man is wearing :-",
+                "options": [
+                    "Red",
+                    "Blue",
+                    "Grey",
+                    "Brown"
+                ],
+                "answer": [
+                    "Red"
+                ]
+            },
+            {
+                "question": "Identify the accessary that the person was holding in his hand :-",
+                "options": [
+                    "Rope",
+                    "Mobile",
+                    "Pipe",
+                    "Bag"
+                ],
+                "answer": [
+                    "Bag"
+                ]
+            }
+        ]
+    },
+    {
+        "img": "BT4.png",
+        "questions": [
+            {
+                "question": "How many kids are there in the picture :-",
+                "options": [
+                    "3",
+                    "1",
+                    "4",
+                    "2"
+                ],
+                "answer": [
+                    "4"
+                ]
+            },
+            {
+                "question": "What are the kids in the picture doing :-",
+                "options": [
+                    "Dancing",
+                    "Playing",
+                    "Singing",
+                    "Talking"
+                ],
+                "answer": [
+                    "Playing"
+                ]
+            },
+            {
+                "question": "Which sport was played by the kids in this picture :-",
+                "options": [
+                    "Volleyball",
+                    "Cricket",
+                    "Basketball",
+                    "Football"
+                ],
+                "answer": [
+                    "Football"
+                ]
+            },
+            {
+                "question": "What was the time when this picture was clicked :-",
+                "options": [
+                    "Evening",
+                    "Midnight",
+                    "Afternoon",
+                    "Morning"
+                ],
+                "answer": [
+                    "Afternoon"
+                ]
+            }
+        ]
+    },
+    {
+        "img": "BT8.png",
+        "questions": [
+            {
+                "question": "What do you see in this picture :-",
+                "options": [
+                    "Fruits",
+                    "Toys",
+                    "Vegetables",
+                    "Vehicle"
+                ],
+                "answer": [
+                    "Fruits"
+                ]
+            },
+            {
+                "question": "What is the number of items showed in this picture :-",
+                "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "answer": [
+                    "5"
+                ]
+            },
+            {
+                "question": "Which sport was played by the kids in this picture :-",
+                "options": [
+                    "Volleyball",
+                    "Cricket",
+                    "Basketball",
+                    "Football"
+                ],
+                "answer": [
+                    "Football"
+                ]
+            },
+            {
+                "question": "What was the time when this picture was clicked :-",
+                "options": [
+                    "Evening",
+                    "Midnight",
+                    "Afternoon",
+                    "Morning"
+                ],
+                "answer": [
+                    "Afternoon"
+                ]
+            }
+        ]
+    }
+]
