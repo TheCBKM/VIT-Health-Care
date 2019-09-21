@@ -23,7 +23,7 @@ app.post('/check', (req, res) => {
             Patient.findOne({ 'phone': req.body.phone }, async (err, user) => {
                 if (!user) {
                     // contactPromise = await patientServices.savePatient(req.body);
-                    res.json({ success: true, data:false  })
+                    res.json({ success: true, data: false })
                 }
                 else if (err) return res.json({ loginSuccess: false, message: 'Auth failedd', err });
                 else {

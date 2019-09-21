@@ -14,6 +14,7 @@ app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
 app.use('/', routes);
+app.use('/static', require('express').static('BrainTeasers'))
 
 mongoose.connect('mongodb+srv://cbkm:cbkm@cbkm-zokml.mongodb.net/VIT-HACK?retryWrites=true&w=majority', { useNewUrlParser: true });
 const db = mongoose.connection;
