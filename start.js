@@ -3,6 +3,13 @@ const depress = require('./questions/depress.json')
 const bt = require('./questions/brain-teasers.json')
 const app = require('express')();
 const mongoose = require('mongoose');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+var routes = require('./routes')
+app.use(cors())
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json())
+app.use('/', routes);
 
 mongoose.connect('mongodb+srv://cbkm:cbkm@cbkm-zokml.mongodb.net/VIT-HACK?retryWrites=true&w=majority', { useNewUrlParser: true });
 const db = mongoose.connection;
