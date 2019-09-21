@@ -29,6 +29,20 @@ app.post('/save', (req, res) => {
     })();
 })
 
+app.post('/addrecord', (req, res) => {
+    (async () => {
+        try {
+            contactPromise = await patientServices.addRecord(req.body);
+            res.json({ success: true, data: contactPromise })
+        }
+        catch (e) {
+            console.log(e)
+            res.json({ success: false })
+        }
+    })();
+})
+
+
 
 app.get('/ava',(req,res)=>{
     res.send("ava")

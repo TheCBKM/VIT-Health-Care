@@ -10,7 +10,6 @@ const recordSchema = mongoose.Schema({
 }, {
         timestamps: true
     })
-
 module.exports = mongoose.model('record', recordSchema);
 
 // ID :: dementia,bt,depress,anxity

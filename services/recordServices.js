@@ -1,9 +1,9 @@
-const recordSchema = require('../models/record');
+const recordSchema = require('../models/records');
 
-const getPatient = function (params) {
+const getRecord = function (params) {
     return recordSchema.find(params).exec();
 }
-const savePatient = function (productObj) {
+const saveRecord = function (productObj) {
     let prod = new recordSchema(productObj);
     return prod.save();
 }
@@ -12,8 +12,7 @@ const deleteRecords = function (prodId) {
 }
 
 module.exports = {
-    getPatient,
-    savePatient,
-    addRecord,
+    getRecord,
+    saveRecord,
     deleteRecords
 }

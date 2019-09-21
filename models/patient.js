@@ -9,10 +9,10 @@ const patientSchema = mongoose.Schema({
         type: String,
     },
     records: [{
-        record: {
-            type: Schema.Types.ObjectId,
-            ref: 'record',
-        }
+
+        type: Schema.Types.ObjectId,
+        ref: 'record',
+
     }
     ],
 }, { timestamps: true })
