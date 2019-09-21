@@ -16,14 +16,14 @@ app.get('/getall', (req, res) => {
     })();
 })
 
-app.post('/login', (req, res) => {
+app.post('/check', (req, res) => {
     (async () => {
         try {
             console.log(req.body)
             Patient.findOne({ 'phone': req.body.phone }, async (err, user) => {
                 if (!user) {
-                    contactPromise = await patientServices.savePatient(req.body);
-                    res.json({ success: true, data: contactPromise })
+                    // contactPromise = await patientServices.savePatient(req.body);
+                    res.json({ success: true, data:false  })
                 }
                 else if (err) return res.json({ loginSuccess: false, message: 'Auth failedd', err });
                 else {
@@ -37,7 +37,6 @@ app.post('/login', (req, res) => {
         }
     })();
 })
-
 
 app.post('/save', (req, res) => {
     (async () => {
