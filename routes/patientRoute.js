@@ -15,6 +15,20 @@ app.get('/getall', (req, res) => {
         }
     })();
 })
+app.post('/getphone', (req, res) => {
+    (async () => {
+        try {
+            console.log(req.body)
+            contactPromise = await patientServices.getPatient(req.body);
+
+            res.json({ success: true, data: contactPromise })
+        }
+        catch (e) {
+            console.log(e)
+            res.json({ success: false })
+        }
+    })();
+})
 
 app.post('/check', (req, res) => {
     (async () => {
