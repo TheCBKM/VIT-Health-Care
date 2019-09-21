@@ -33,7 +33,7 @@ app.post('/save', (req, res) => {
 app.post('/addrecord', (req, res) => {
     (async () => {
         try {
-            Patient.findOne({ 'phone': req.body.phone }, (err, user) => {
+            Patient.findOne({ 'phone': req.body.phone }, async(err, user) => {
                 if (!user) return res.json({ success: true, message: 'Auth failed, phone not found' });
                 else if (err) return res.json({ loginSuccess: false, message: 'Auth failed', err });
                 else {
