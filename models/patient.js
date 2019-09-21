@@ -9,10 +9,8 @@ const patientSchema = mongoose.Schema({
         type: String,
     },
     records: [{
-
         type: Schema.Types.ObjectId,
         ref: 'record',
-
     }
     ],
 }, { timestamps: true })
