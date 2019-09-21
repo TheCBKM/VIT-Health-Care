@@ -211,6 +211,59 @@
             }
         ]
     },
+     {
+        "img": "BT4.png",
+        "questions": [
+            {
+                "question": "How many kids are there in the picture :-",
+                "options": [
+                    "3",
+                    "1",
+                    "4",
+                    "2"
+                ],
+                "answer": [
+                    "4"
+                ]
+            },
+            {
+                "question": "What are the kids in the picture doing :-",
+                "options": [
+                    "Dancing",
+                    "Playing",
+                    "Singing",
+                    "Talking"
+                ],
+                "answer": [
+                    "Playing"
+                ]
+            },
+            {
+                "question": "Which sport was played by the kids in this picture :-",
+                "options": [
+                    "Volleyball",
+                    "Cricket",
+                    "Basketball",
+                    "Football"
+                ],
+                "answer": [
+                    "Football"
+                ]
+            },
+            {
+                "question": "What was the time when this picture was clicked :-",
+                "options": [
+                    "Evening",
+                    "Midnight",
+                    "Afternoon",
+                    "Morning"
+                ],
+                "answer": [
+                    "Afternoon"
+                ]
+            }
+        ]
+    },
     {
         "img": "BT8.png",
         "questions": [
