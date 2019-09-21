@@ -2,7 +2,7 @@ const patientSchema = require('../models/patient');
 const recordServices = require('../services/recordServices');
 const mongoose = require('mongoose');
 const getPatient = function (params) {
-    return patientSchema.find(params).populate("records.record").exec();
+    return patientSchema.find(params).populate("records").exec();
 }
 const savePatient = function (productObj) {
     let prod = new patientSchema(productObj);
