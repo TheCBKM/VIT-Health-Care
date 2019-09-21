@@ -5,7 +5,7 @@ const recordSchema = mongoose.Schema({
         required: true
     },
     marks: {
-        type: String,
+        type: JSON,
     },
 }, {
         timestamps: true
